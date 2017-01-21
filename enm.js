@@ -35,7 +35,7 @@ testCase('Edge node manager testing', function() {
 			var requestURL = createUrlFor("/service/conf");
 			console.log("URL = "+requestURL);
             console.log("token ="+token);
-            console.log("user_id = "+user_id);
+            console.log("user_id = "+userid);
 			request({
 			  uri: requestURL,
 			  method: "PUT",
